@@ -1,0 +1,101 @@
+==========================================================================================================================
+Exercício 04
+==========================================================================================================================
+Atividade 1:
+Fazer um programa para receber 3 números inteiros: numA, numB, numC. Em seguida, o programa deverá criar os seguintes 
+métodos abaixo:
+	a) Fazer um método que receba como parâmetro os números numA e numB. O método deverá calcular e retornar a soma 
+dos números inteiros existentes entre numA e numB.
+	b) Fazer um método que receba como parâmetro os números numA, numB e numC. O método deverá imprimir os números 
+existentes entre numA e numB que sejam divisíveis por numC.
+	c) Fazer um método que receba como parâmetro os números numA e numC. Considerando que numA seja 100%, o método 
+deverá calcular e retornar o valor percentual de numC em relação a numA.
+
+Atividade 2:
+Fazer um programa para receber via teclado o Nome do Empregado, o Código do Empregado (numérico), e o Número de Peças 
+fabricadas em um determinado mês. O programa deverá imprimir uma lista, contendo o Nome do Empregado, o Salário e a 
+Média de Salários da empresa. Para calcular o Salário, considerar:
+
+	1 a 200 peças fabricadas 	– salário de R$ 2,00 por peça
+	201 a 400 peças fabricadas 	– salário de R$ 2,30 por peça
+	acima de 400 peças fabricadas 	– salário de R$ 2,50 por peça
+
+No final do relatório, imprimir o total gasto em salários pela empresa.
+
+Consistências:
+	O número de peças deverá ser maior que zero;
+	O código deverá ser um número entre 1 e 999.
+
+Métodos:
+	Fazer um método para calcular o Salário do Empregado;
+	Parâmetro: número de peças;
+	Retorno: salário.
+
+OBSERVAÇÃO!:
+Adotar um flag para encerrar a entrada de dados e considerar o máximo de 100 empregados.
+
+Layout do relatório:
+
+Nome 			Salário 	Média Salários
+----------------	-------		--------------
+XXXXXXXXXXXXXXXX 	999.99 		999.99
+XXXXXXXXXXXXXXXX 	999.99 		999.99
+XXXXXXXXXXXXXXXX 	999.99 		999.99
+XXXXXXXXXXXXXXXX 	999.99 		999.99
+
+Total pago com salários: 9,999.99
+
+Atividade 3:
+Fazer um programa para controlar as contas de uma rede de Hoteis. Receber via teclado o Nome do Hóspede, o Dia de 
+Entrada no Hotel, o Dia de Saída do Hotel, o Tipo de Quarto e a Cidade do Hotel. O programa deverá por meio de um 
+método de nome calcularConta, calcular e imprimir o valor da Conta de cada hóspede de acordo com a seguinte tabela:
+
+	Tipo de Quarto 		Valor da Diária
+	STANDARD 		120,00
+	LUXO 			150,00
+	SUPER-LUXO 		180,00
+
+O valor da conta será o valor da diária multiplicada pelo número de diárias da hospedagem. Para descobrir o número de
+diárias, subtrair o dia de saída do dia de entrada no hotel.
+
+	Fórmula => Valor da Conta = (diaSaida - diaEntrada) * Valor Diaria
+
+Ex:
+	Dia de Entrada: 20
+	Dia de Saída: 25
+	Tipo de Quarto: Luxo - Valor Diaria: 150,00
+	Valor da conta: ( 25 – 20 ) * 150,00 = 750,00
+
+O método deverá receber como parâmetro a Dia da Entrada, o Dia da Saída e o Tipo de Quarto. O programa deverá imprimir 
+no final um relatório com o Nome do hóspede e o Valor da Conta, de todas as contas acima da média.
+
+Consistências:
+	Fazer um método de nome cidadeEhValida para consistir a Cidade do Hoteldigitada (Parâmetro: Cidade do Hotel digitada)
+	Este método deverá pesquisar no vetor vetCidades se o nome da cidade informada existe lá, caso positivo, o método 
+	deverá retornar o valor TRUE, caso negativo retornar o valor FALSE).
+
+	Consistir o tipo de quarto para aceitar somente os valores STANDARD, LUXO ou SUPER-LUXO.
+	O Dia de Saída deverá ser maior que o Dia de Entrada.
+
+OBSERVAÇÃO!:
+Declarar no programa um vetor global de nome vetCidades contendo os seguintes nomes de cidades:
+	BELO HORIZONTE, SÃO PAULO, RIO DE JANEIRO, SALVADOR e CURITIBA.
+
+Criar um flag para encerrar a entrada de dados;
+O número máximo de hospedagens que o programa receberá será 100;
+Considerar que a entrada e saída no hotel ocorrem sempre no mesmo mês;
+
+Layout do relatório:
+
+	Relatório de contas acima da média
+	Nome do hóspede 	Vlr Conta
+	---------------------------------
+	XXXXXXXXXXXXXXXX 	999.99
+	XXXXXXXXXXXXXXXX 	999.99
+	XXXXXXXXXXXXXXXX 	999.99
+	XXXXXXXXXXXXXXXX 	999.99
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/1º
