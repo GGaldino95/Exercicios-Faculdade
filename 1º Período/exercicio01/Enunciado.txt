@@ -1,0 +1,40 @@
+==========================================================================================================================
+Exercício 01
+==========================================================================================================================
+Atividade 1:
+Faça um algoritmo que leia as notas das três provas que ele obteve no semestre e exiba sua situação, conforme tabela abaixo:
+
+	Se nota acima de 59 pontos		-> Aprovado
+	Se nota abaixo de 25 pontos		-> Reprovado
+	Diferentes das anteriores		-> Prova especial
+
+
+Atividade 2:
+Um produto vai sofrer aumento de acordo com a 1ª tabela abaixo. Receba o preço antigo calcule e escreva o preço novo, 
+e escreva uma mensagem em função do preço novo (de acordo com a 2ª tabela).
+
+	PREÇO ANTIGO				PERCENTUAL DE AUMENTO
+	até R$50				5
+	entre R$50 e  R$100			10
+	acima de R$100				15
+	
+	PREÇO NOVO				MENSAGEM
+	até R$80				Barato
+	entre R$80 e R$120 (inclusive)		Normal
+	entre R$120e R$200 (inclusive)		Caro
+	acima de R$200				Muito Caro
+
+
+Atividade 3:
+FUP que receba o salário e sexo de um funcionário da empresa TESTANDO.com. Exiba o salário final, considerando as regras abaixo:
+
+	Salario <= 1500,00			10% de aumento
+	R$1500,00 < salário <= R$5000,00	5% de aumento
+	Salário > R$5000,00			0% de aumento
+
+As mulheres receberão uma ajuda de custo de R$150,00
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
