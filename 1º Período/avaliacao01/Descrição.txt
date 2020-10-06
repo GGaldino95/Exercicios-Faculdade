@@ -1,0 +1,15 @@
+==========================================================================================================================
+Avaliação 01
+==========================================================================================================================
+Nota obtida: 20/30
+(Não possuo mais o enunciado da prova)
+
+Proposta: 
+Fazer um programa de implante de silicone que receba as informações de uma determinada pessoa, e com base nessa 
+entrada de dados definir quantos mg de silicone essa pessoa poderá implantar. Com essa definição, mostre o orçamento.
+Faça as devidas validações.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
