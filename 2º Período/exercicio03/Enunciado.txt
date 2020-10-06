@@ -1,0 +1,30 @@
+==========================================================================================================================
+Exercício 03
+==========================================================================================================================
+Fazer um programa em Java para consultar informações sobre os vôos de uma empresa aérea. Primeiramente o programa deverá 
+receber via teclado os Nomes e respectivas Distâncias (em km, até Belo Horizonte) de até 20 Cidades no mundo e armazenar
+em dois vetores. Em seguida, o programa deverá entrar no módulo de consultas e solicitar o Nome de uma Cidade. Para cada
+cidade digitada o programa deverá calcular e exibir os seguintes resultados:
+	
+	Preço da Passagem;
+	Tempo de Vôo em minutos;
+	Número de escalas no percurso.
+
+Considerações para os cálculos:
+
+	A empresa aérea cobra R$0,25 por km percorrido no vôo;
+	O avião voa com uma velocidade de 800 km/h;
+	A empresa aérea faz uma escala a cada 3 horas de vôo.
+
+OBSERVAÇÃO!:
+Adotar um flag para finalizar a entrada de dados com os Nomes de Cidades e Distâncias e outro flag para finalizar as consultas.
+Exibir mensagem de erro se o Nome da Cidade digitada na consulta não existir na lista de cidades digitadas inicialmente (Max. 20).
+
+Durante a digitação dos Nomes das Cidades e Distâncias, consistir:
+	O Nome da Cidade deverá ser de preenchimento obrigatório;
+	A distância até Belo Horizonte deverá ser no mínimo 500 km.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/1º
