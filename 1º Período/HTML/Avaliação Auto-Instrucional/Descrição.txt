@@ -1,0 +1,14 @@
+==========================================================================================================================
+Avaliação Auto-instrucional
+==========================================================================================================================
+(Não possuo mais o enunciado do trabalho)
+
+Proposta: 
+	Criar um formulário HTML que valide o CPF digitado e faça todas as validações necessárias;
+	Crie dois botões para limpar todos os campos e enviar as informações para um servidor;
+	Implemente estilos através de arquivo '.css' e funções através de arquivo '.js'.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º

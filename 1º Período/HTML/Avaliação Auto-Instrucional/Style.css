@@ -1,0 +1,91 @@
+body {
+	font-family: "CENTURY GOTHIC";
+    background: url("bg2.png") no-repeat fixed;
+	background-size: cover;
+}
+
+hr { 
+	width: 33%;
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+	border-color: #305A72;
+}
+
+h1 {
+	color: #33ccff;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	
+}
+
+form {
+	max-width: 450px;
+	background: #FAFAFA;
+	padding: 30px;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+fieldset {
+	border-color: #305A72;
+}
+
+*.label1 {
+	display: inline-block;
+    width:170px;
+    text-align: right;
+}
+
+button, *.buttonCPF, *.aprova, *.desaprova {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;		
+	font-size: 12px;
+	outline: 0;
+}
+
+button:hover, *.buttonCPF:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+
+*.buttonCPF, *.aprova, *.desaprova {
+	padding: 2px 10px;
+}
+
+*.aprova {
+	-moz-box-shadow: inset 0px 1px 0px 0px #12D312;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #12D312;
+	box-shadow: inset 0px 1px 0px 0px #0DB21B;
+	background-color: #06A106;
+	border: 1px solid #086110;
+}
+
+*.aprova:hover {
+	background-color: #0DB21B;
+}
+
+*.desaprova {
+	-moz-box-shadow: inset 0px 1px 0px 0px #F01010;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #F01010;
+	box-shadow: inset 0px 1px 0px 0px #D61010;
+	background-color: #C01717;
+	border: 1px solid #430808;
+}
+
+*.desaprova:hover {
+	background-color: #D61010;
+}
