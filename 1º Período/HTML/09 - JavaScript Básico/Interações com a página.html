@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			p {
+				margin: 0px;
+				font-size : 30px;
+				border-style: solid;
+				border-color: #675483;
+				padding: 5px;
+				width: 180px;
+				text-align: center;
+			}
+			
+			form {
+				margin-left:auto;
+				margin-right:auto;
+				width:180px;
+			}
+		</style>
+	</head>
+	<body onunload="trocaTexto('onunload')" onload="trocaTexto('Bem vindo!')">
+
+		<form action="xxx" onsubmit="trocaTexto('onsubmit')">
+			<h1 align=center>Texto inicial</h1>
+			<p onclick="trocaTexto('Comando Click')">Clica aqui</p>
+			<p onmousemove="trocaTexto('Tá vendo')">Pode mexer à vontade que não sobe janela</p>
+			<p ondblclick="trocaTexto('ondblclick')">ondblclick</p>
+			<p onmousedown="trocaTexto('onmousedown')">onmousedown</p>
+			<p onmouseup="trocaTexto('onmouseup')">onmouseup</p>
+			<p><input type="text" placeholder="onkeypress" onkeypress="trocaTexto('onkeypress')"></p>
+			<p><input type="text" placeholder="onkeydown" onkeydown="trocaTexto('onkeydown')"></p>
+			<p><input type="text" placeholder="onkeyup" onkeyup="trocaTexto('onkeyup')"></p>
+			<p><input type="text" placeholder="onblur" onblur="trocaTexto('onblur')"></p>
+			<p><input type="text" placeholder="onfocus" onfocus="trocaTexto('onfocus')"></p>
+			<p><input type="text" placeholder="onchange" onchange="trocaTexto('onchange')"></p>
+			<p><select onchange="trocaTexto('onchange')">
+				  <option>onchange</option>
+				  <option>onchange</option>
+				  <option>onchange</option>
+			   </select>
+			</p>
+			<p><textarea placeholder="onchange" rows=3 cols=10 onchange="trocaTexto('onchange')"></textarea>
+			</p>
+			<input type=submit value="onsubmit">
+		</form>
+
+	</body>
+
+	<script>
+		function alerta(par){ //variável com parâmetro (texto de impressão)
+			alert(par); //comando alert com parâmetro (texto de impressão)
+		}
+
+		function trocaTexto(par){ //variável com parâmetro
+			if (par != 'onfocus' && par != 'Tá vendo') //consistência de dados
+					alerta(par); //executa a variável da função acima com parâmetro
+			var texto = document.querySelector("h1"); //variável com seletor de comando html (h1) para atribuição de dados contidos no parâmetro da função
+			texto.textContent = par;
+		}
+	</script>
+</html>
