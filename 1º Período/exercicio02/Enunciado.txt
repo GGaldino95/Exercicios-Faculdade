@@ -1,0 +1,22 @@
+==========================================================================================================================
+Exercício 02
+==========================================================================================================================
+Atividade 1:
+Escreva um algoritmo que receba via teclado dois números inteiros e exiba o resultado da sua soma.
+
+Atividade 2: 
+Escreva um algoritmo que receba dois números reais. Ao final mostre a soma dos números lidos, em seguida mostre o 
+resultado da subtração, em seguida mostre o resultado da multiplicação e no final mostre o resultado da divisão.
+
+Atividade 3:
+Escreva um algoritmo que receba o nome e a idade (inteira) de uma pessoa (via teclado) e como saída, converta a idade 
+em dias e exiba (nome e idade).
+
+Atividade 4:
+Faça um algoritmo que receba duas notas reais e calcule a média aritmética. 
+(Lembre-se que média aritmética corresponde a soma das notas divida pela quantidade de notas). 
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
