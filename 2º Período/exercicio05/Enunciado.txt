@@ -1,0 +1,87 @@
+==========================================================================================================================
+Exercício 05
+==========================================================================================================================
+Atividade 1:
+Faça um programa em Java para receber via teclado a data de nascimento de uma pessoa e a data de hoje, ambas no formato 
+String DD/MM/AAAA. O programa deverá criar um método para calcular e imprimir a idade da pessoa.
+
+Atividade 2:
+Fazer um programa em Java para receber via teclado um código caracter contendo 11 dígitos. Os 9 primeiros dígitos 
+representam o código em si e os 2 últimos os dígitos representam os dígitos verificadores. Utilizando a regra de cálculo 
+dos dígitos verificadores, o programa deverá conter um método para calcular os dois dígitos verificadores do código e 
+comparar com os 2 dígitos verificadores digitados no código. Se forem iguais, o programa deverá imprimir a mensagem: 
+“Dígito Correto”, caso contrário imprimir “Dígito Inválido”. O cálculo dos dois dígitos verificadores deverá ser feito 
+baseando-se nos 9 primeiros dígitos do Código:
+
+	1º Dígito verificador:
+		1 - Somar entre si o valor de cada dígito do código
+		2 - Dividir o resultado por 10
+		3 - O 1º Dígito será a parte inteira do resultado da divisão do item 2.
+	2º Dígito verificador:
+		1 - Multiplicar entre si o valor de cada dígito do código
+		2 - O 2º Digito verificador será o ultimo algarismo a direita do resultado da multiplicação do item 1.
+
+Exemplo:
+	9 primeiros dígitos do Código: "821324312"
+	1º Digito verificador: 8+2+1+3+2+4+3+1+2 = 26 / 10 = 2,6 => Parte inteira = 2
+	2º Digito verificador: 8*2*1*3*2*4*3*1*2 = 2304 => Ultimo algarismo a direita = 4
+
+OBSERVAÇÃO!:
+Consistir a entrada de dados para aceitar somente CODIGO com 11 caracteres e todos os 11 caracteres devem ser dígitos
+
+Atividade 3:
+Fazer um programa em Java para calcular uma conta telefônica. Serão digitadas via teclado o HORÁRIO INICIAL e o HORÁRIO
+FINAL de cada ligação. Calcular e imprimir o CUSTO de cada chamada de acordo com a tabela abaixo:
+
+	Intervalo de horário 	Custo do minuto
+	00:00 ás 05:59 		R$ 0,10
+	06:00 às 07:59 		R$ 0,15
+	08:00 às 17:59		R$ 0,20
+	18:00 às 23:59 		R$ 0,15
+
+OBSERVAÇÃO!:
+	Receber os horários em variável do tipo String no formato HH:MM. Exemplo: "10:30";
+	Imprimir o valor TOTAL DA CONTA TELEFÔNICA;
+	Considerar que as ligações sempre ocorrem dentro do mesmo dia;
+	Considerar o valor do minuto relativo aHORÁRIO INICIAL da chamada para calcular o CUSTO da chamada. Ex: se a chamada 
+começou as 06:30, o valor do minuto para toda a chamada será R$0,15 independente de quanto tempo durar a chamada;
+	Criar um método de nome horaEhValida que deverá receber como parâmetro uma hora no formato HH:MM e consistir se HH 
+está entre 0 e 23 e MM está entre 0 e 59. Caso afirmativo, o método deverá retornar o valor TRUE, caso negativo o método 
+deverá retornar o valor FALSE;
+	Criar uma consistência para que o HORÁRIO FINAL da chamada seja sempre maior que o HORÁRIO INICIAL;
+	Adote um Flag para encerrar a entrada de dados;
+
+Atividade 4:
+O DETRAN deseja fazer o controle das multas de veículos. Faça um programa em Java que receba via teclado a PLACA DO VEÍCULO, a
+DATA DA MULTA (DD/MM/AAAA) e o VALOR DA MULTA. O programa deverá consistir a entrada de dados da seguinte forma:
+
+	A placa deverá ser uma String de 7 caracteres e ser formada por três letras e quatro dígitos. (Ex: GVP5566)
+	O valor da multa deverá ser maior que zero.
+
+Fazer um método de nome dataEhValida para consistir a data da multa:
+	O método deverá receber como parâmetro uma data no formato DD/MM/AAAA
+	A consistência deverá seguir as seguintes regras:
+	A String deverá ter 10 caracteres de tamanho.
+	O 3º. E o 6º. Caracteres deverão ser uma barra ('/').
+	Para os meses de Janeiro, Março, Maio, Julho, Agosto, Outubro e Dezembro o dia deverá ser entre 1 e 31.
+	Para os meses Abril, Junho, Setembro e Novembro o dia deverá ser entre 1 e 30.
+	Para o mês de Fevereiro:
+		Anos divisíveis por 4 e não divisível por 100 ou anos divisíveis por 400 o dia deverá ser entre 1 e 29 (ano bissexto);
+		Para os demais anos o dia deverá ser entre 1 e 28;
+	Os meses deverão ser entre 1 e 12
+	O ano deverá ser menor ou igual ao ano atual.
+	O método deverá retornar um valor do tipo Boolean. Caso a data recebida como parâmetro esteja de acordo com as regras acima a 
+função retornará o valor TRUE, caso contrário, retornará o valor FALSE.
+
+Como resultado final o programa deverá imprimir:
+	A soma dos valores das multas;
+	O valor médio das multas;
+	O valor da menor multa.
+
+OBSERVAÇÃO!:
+Definir um Flag para encerrar o programa.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/1º
