@@ -1,0 +1,43 @@
+==========================================================================================================================
+Exercício 10
+==========================================================================================================================
+A tabela a seguir contém em cada linha as 5 notas de provas obtidas por 30 alunos durante o período. O índice das linhas 
+corresponde ao número do aluno, e o das colunas corresponde ao número da nota:
+
+	ALUNO		NOTA 1	NOTA 2	NOTA 3	NOTA 4	NOTA 5
+	1		6.0	7.0	6.5	8.0	4.0
+	2		9.0	8.0	4.0	9.0	6.0
+	3		5.5	7.5	4.5	8.5	9.0
+	...		...	...	...	...	...
+	30		8.0	9.0	8.5	7.5	9.0
+
+Fazer um sistema para receber via teclado as 5 notas de cada um dos 30 alunos. O sistema deverá calcular a média de cada 
+aluno e a média da turma. Como resultado final o sistema deverá imprimir o relatório a seguir:
+
+	Nº ALUNO	MÉDIA ALUNO	MÉDIA TURMA
+	1		6.3		7.38
+	2		7.8		7.38
+	3		7.0		7.38
+	...		...		...				
+	30		8.4		7.38
+
+Planejamento do Algoritmo:
+
+	1 – Declaração de variáveis
+		nota, contAluno, contNota, somaNotaAluno, mediasAlunos(30), somaMediaAluno, mediaTurma
+
+	2 – Entrada de dados
+		Receber as 5 notas dos 30 alunos.
+
+	3 – Cálculos
+		Somar as 5 notas de cada aluno;
+		Calcular a média de cada aluno e armazenar no vetor de médias;
+		Calcular a media da turma.
+
+	4 – Saída de dados
+		Imprimir o relatório de médias de cada aluno e média da turma.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
