@@ -1,0 +1,22 @@
+==========================================================================================================================
+Avaliação 02
+==========================================================================================================================
+Nota obtida: 30/30
+(Não possuo mais o enunciado da prova)
+
+Proposta: 
+Fazer um programa de Cálculo de Salários que receba o nome e o salário de um funcionário, e com base nessa 
+entrada de dados definir o valor do FGTS, fundo do FGTS, INSS e CSA.
+
+Relatório final:
+	Todas as informações do funcionário;
+	Salario final do funcionário;
+	A média de salários pagos;
+	Quantidade de salários abaixo de R$1908,93.
+
+Faça as devidas validações.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
