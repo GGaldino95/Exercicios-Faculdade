@@ -1,0 +1,26 @@
+==========================================================================================================================
+Exercícios do 3º Período envolvendo:
+
+	- Estrutura de Dados
+	Sintaxe e comandos básicos		-> C
+	Manipulação de Strings			-> C
+	Ponteiros				-> C
+	Alocação Dinâmica na memória		-> C
+	Listas Encadeadas Simples e Dupla	-> C
+
+	- Linguagem e Técnicas de Programação 3 (LTP3) - Orientação a Objetos
+	Manipulação de Datas (Calendar)				-> Java
+	Declaração e Instanciação de Objetos			-> Java
+	Encapsulamento, Herança, Polimorfismo e Abstração	-> Java
+	Padrão MVC (Model, View, Controller)			-> Java
+	Listas (ArrayList)					-> Java
+
+
+Alguns trechos de códigos podem estar incompletos, não-otimizados ou com possíveis erros/bugs
+por conta de terem sido feitos enquanto eu ainda estava aprendendo o conteúdo.
+Posteriormente eu talvez refaça os códigos ajustados.
+
+==========================================================================================================================
+
+Autor: Gabriel Galdino
+Curso: CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/2º
