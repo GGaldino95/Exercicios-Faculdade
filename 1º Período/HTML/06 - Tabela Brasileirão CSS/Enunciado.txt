@@ -1,0 +1,59 @@
+==========================================================================================================================
+Exercício 06
+==========================================================================================================================
+Criar uma página HTML constituída de uma tabela centralizada com título “BRASILEIRÃO SERIE A”, com dados tabulados 
+referentes à classificação do Campeonato Brasileiro de 2018, no dia 04/10/2018, às 15h37min. A formatação da tabela 
+é mostrada na figura abaixo:
+
+						BRASILEIRÃO SERIE A 
+	CLASSIFICAÇÃO		P	J	V	E	D	GP	GC	SG	%
+1 	Palmeiras		53	27	15	8	4	41	18	23	65.4
+2	Internacional		53	27	15	8	4	35	17	18	65.4
+3	São Paulo		52	27	14	10	3	39	22	17	64.2
+4	Grêmio			50	27	14	8	5	35	14	21	61.7
+5	Flamengo		49	27	14	7	6	38	22	16	60.5
+6	Atlético-MG		45	27	13	6	8	47	33	14	55.6
+7	Cruzeiro		37	27	9	10	8	22	23	-1	45.7
+8	Santos			36	27	9	9	9	31	26	5	44.4
+9	Corinthians		35	27	9	8	10	28	23	5	43.2
+10	Fluminense		34	27	9	7	11	26	32	-6	42.0
+11	Atlético-PR		33	27	9	6	12	33	29	4	40.7
+12	Botafogo		33	27	8	9	10	28	38	-10	40.7
+13	América-MG		32	27	8	8	11	25	30	-5	39.5
+14	Bahia			30	27	7	9	11	26	32	-6	37.0
+15	Ceará			30	27	7	9	11	22	29	-7	37.0
+16	Vasco			30	27	7	9	11	31	39	-8	37.0
+17	Vitória			29	27	8	5	14	27	48	-21	35.8
+18	Chapecoense		28	27	6	10	11	28	41	-13	34.6
+19	Sport			24	27	6	6	15	23	44	-21	29.6
+20	Paraná			17	27	3	8	16	12	37	-25	21.0
+
+OBSERVAÇÃO!:
+	Exige-se a aplicação das estilizações abaixo mencionadas com o uso exclusivo de uma folha de estilos CSS externa:
+
+	Borda principal da tabela: espessura de 1px, de cor #DDDDDD;
+	Todos os textos devem usar a fonte “Arial”;
+	Cores usadas para as posições de classificação: azul-marinho (#003366) (1 a 4), azul-celeste (#1398BE) (5 e 6), 
+	laranja (#DE9800) (7 a 12), cinza (#CCCCCC) (13 a 16) e vermelho (#C91B04) (17 a 20);
+	Título da tabela H1 na cor verde;
+	Formatação de fontes (tamanho, cor, formato negrito/não negritado e alinhamento):
+	Posições de classificação: tamanho 18px, em formato negrito e alinhamento centralizado; as cores variam de 
+	posição para posição, conforme mencionado anteriormente;
+	Títulos das colunas: tamanho 13px, cor #999999, formato negrito e alinhamento centralizado;
+	Nomes dos times: tamanho 14px, cor #666666, formato negrito e alinhamento à esquerda;
+	Coluna referente à quantidade de pontos dos times: tamanho 14px, cor preta, formato negrito e alinhamento centralizado;
+	Demais colunas de classificação: tamanho 14px, cor #666666, formato não negritado e alinhamento centralizado;
+	Legendas para a área de classificação (“Taça Libertadores”, “Pré-Libertadores”, “Sul-Americana” e “Rebaixados”): 
+	tamanho 10px, cor #8F8F8F, formato não negritado e alinhamento à esquerda;
+	Legendas (siglas): tamanho 10px, cor #555555, formato negritado e alinhamento à esquerda;
+	Legendas (significados): tamanho 10px, cor #555555, formato não negritado e alinhamento à esquerda.
+	As células dos valores exibidos nas colunas “P”, ”J”, “V”, “E”, “D”, “GP”, “GC” e “SG” devem apresentar cor de 
+	fundo #F7F7F7;
+	Certifique-se de que todas as colunas de classificação (com exceção da coluna “%”) apresentem a mesma largura;
+	Uso de bordas com espessura de 1px, cor #DDDDDD, para separação entre as linhas; exceção às bordas de separação 
+	entre o 4°/5° time e 16°/17° time, que devem apresentar borda de 2px, cor #CCCCCC.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
