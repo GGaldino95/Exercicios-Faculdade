@@ -1,0 +1,32 @@
+==========================================================================================================================
+Exercício 09
+==========================================================================================================================
+Faça um programa que receba via teclado um conjunto de 15 notas dos alunos de LTPI. O código deverá calcular e imprimir 
+um relatório contendo os possíveis valores para as notas e a frequência com que cada uma delas ocorreu na turma.  
+
+	RELATÓRIO DE ALUNOS POR NOTA
+	Nota	    Frequência 	
+	0		4 		- indica que 4 alunos tiraram a nota 0
+	1		2		- indica que 2 alunos tiraram a nota 1
+	2		3		- indica que 3 alunos tiraram a nota 2
+	3		0		- ...
+	4		0
+	5		1
+	6		1
+	7		0
+	8		1
+	9		0
+	10 		3
+
+OBSERVAÇÃO!:
+	Só aceitar notas de 0 a 10, inteiras;
+	Para abandonar, considere nota = -1.
+
+Ao final exiba:
+	Relatório demonstrando a frequência;
+	A média da turma.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
