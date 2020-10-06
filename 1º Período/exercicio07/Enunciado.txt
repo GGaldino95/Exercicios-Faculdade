@@ -1,0 +1,35 @@
+==========================================================================================================================
+Exercício 07
+==========================================================================================================================
+A academia Emagreça Bem quer fazer um programa para calcular o IMC (índice de massa corporal) de seus alunos, 
+e para isto, precisa da sua ajuda. Para o cálculo, utilize a fórmula abaixo:
+
+	IMC = Peso / (Altura * Altura)
+
+Faça um programa que receba via teclado o Nome, a Altura e o Peso de cada aluno, e informe a situação, 
+conforme a tabela abaixo:  
+
+	CÁLCULO				SITUAÇÃO
+	IMC <= 18,4			Abaixo do peso
+	18,4 < IMC <= 24,9		Peso Normal
+	24,9 < IMC <= 29,9		Sobrepeso
+	IMC >= 30,0			Obesidade
+
+OBSERVAÇÃO!:
+	Para finalizar digite altura = 0;
+	Só aceitar alturas positivas e abaixo de 3 metros;
+	Só aceitar pesos positivos.
+
+Resultado intermediário: 
+	Nome e situação do aluno.
+
+Resultados finais:
+	A média de IMC calculado;
+	A quantidade de alunos com IMC abaixo do peso;
+	O percentual de alunos com IMC indicando Obesidade;
+	O maior IMC encontrado.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
