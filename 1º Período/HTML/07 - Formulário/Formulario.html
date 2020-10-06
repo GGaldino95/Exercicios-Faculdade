@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+	  <title> Como criar um formulário completo em HTML </title>
+  </head>
+  <body>
+	  <h1> Primeiro Formulário </h1>
+	  
+	  <form action="MyServerAction" method="get">
+		  <fieldset>
+			<legend> Dados Pessoais </legend>
+			
+			<label> Nome: </label>
+			<input type="text" name="nome">
+			
+			</fieldset>
+			<br>
+			
+			<input type="submit">
+			
+			<input type="reset" value="Limpar">
+		</form>
+		
+		<h1> Segundo Formulário </h1>
+	  
+	  <form action="MyServerAction" method="get">
+		  <fieldset>
+			<legend> Informe os Dados </legend>
+			
+			<label for="nome"> Nome: </label>
+			<input type="text" name="nome">
+			<p>
+			<label for="login"> Login: </label>
+			<input type="text" name="login">
+			<p>
+			<label for="pass"> Senha: </label>
+			<input type="password" name="pass">
+			<p>
+			<input type="submit">
+			<input type="reset" value="Limpar">
+		  </fieldset>
+		</form>
+  </body>
+</html>
