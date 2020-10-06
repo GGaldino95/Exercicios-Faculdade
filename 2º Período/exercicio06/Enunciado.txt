@@ -1,0 +1,34 @@
+==========================================================================================================================
+Exercício 06
+==========================================================================================================================
+Atividade 1:
+Fazer um programa para receber via teclado a digitação em letras minúsculas de um NOME do tipo string. Em seguida o 
+programa deverá executar os seguintes métodos:
+
+	Criar um método que para Converter a primeira letra do Nome para maiúsculo e retornar o nome convertido.
+	Criar um método para Converter a primeira letra de cada palavra do Nome para maiúscula e imprimir a frase convertida.
+	Criar um método para eliminar espaços em branco digitados à esquerda do Nome e retornar o nome sem os espaços.
+	Criar um método para eliminar espaços em branco digitados à direita do Nome e imprimir o nome sem os espaços.
+	Criar um método para eliminar espaços em branco excessivos digitados entre as palavras do nome de tal forma que 
+	fique somente um espaço entre cada palavra, e retornar o nome.
+
+Atividade 2:
+Fazer um programa em Java que receba via teclado a digitação de até 30 nomes de pessoas. Para cada um dos nomes digitados o 
+programa deverá conter um método para gerare retornar um Login e uma Senha. Após gerados o login e senha o programa deverá 
+exibi-los na tela. O Login será a formado da concatenação da primeira letra de cada nome em maiúsculo. E a senha será formada
+da concatenação do primeiro dígito do valor ASCII Decimal de cada letra do Login.
+
+	nome digitado: jose maria alves dos santos
+	Login gerado: JMADS	(códigos ASCII decimais: J=74, M=77, A=65, D=68, S=83)
+	Senha gerada: 77668
+
+OBSERVAÇÃO!:
+Consistir a entrada de dados para que o nome da pessoa digitado e tenha o tamanho mínimo de 15 caracteres. Não deve existir 
+caracteres 'espaço' antes do primeiro nome. Deve existir pelo menos 1 nome e 1 sobrenome e apenas 1 espaço entre o nome 
+e sobrenomes. O nome só deve possuir letras.
+Criar um FLAG para encerrar a entrada de dados.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/1º
