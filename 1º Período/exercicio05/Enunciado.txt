@@ -1,0 +1,39 @@
+==========================================================================================================================
+Exercício 05
+==========================================================================================================================
+A concessionária de veículos CARANGO VELHO, vende carros semi-novos, com anos de fabricação de 1990 até 2014.
+Neste mês ela decidiu fazer uma queima de estoque para vender todos os carros com desconto, com isso eles fizeram 
+uma mega promoção, com descontos de acordo com o ano do carro e com a idade do comprador.
+
+Você foi contratado para fazer um algoritmo que o usuário do sistema entre com o ano, com o valor atual do carro, 
+e com a idade do comprador, calcule e exiba o valor do desconto e o valor a ser pago pelo cliente de cada carro. 
+A tabela de desconto deverá ser calculada de acordo com o ano do veículo. 
+
+	ANO				DESCONTO
+	Até 2000 (Inclusive)		12%
+	de 2000 até 2010 (Inclusive)	7%
+	de 2010 até 2014 (Inclusive)	3%
+
+Após o cálculo do desconto pelo ano do carro, a empresa irá proporcionar mais um desconto de acordo com a idade do 
+comprador, mas esse desconto será sobre o valor já calculado com o ano do carro, segue a tabela.
+
+	Idade				DESCONTO
+	Até 40 (Inclusive)		0,5%
+	de 41 até 60 (Inclusive)	1%
+	Acima de 60			2%
+
+Segue um exemplo:
+
+	Ano		        : 2000
+	Valor atual do carro 	: 16000
+	Idade do comprador 	: 55
+
+	Cálculo:
+	Desconto do ano = 16000 x 0,12 = R$ 1920
+	Desconto por idade = (16000-1920) * 0,01 = R$ 140,8
+	Valor do carro = 16000 – 1920 – 140,8 = R$ 13.939,2
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
