@@ -22,13 +22,13 @@ Atividade 3:
 Faça um programa em Java para calcular e imprimir o Bônus Salarial e Desconto de Vale Transporte para um empregado da 
 Empresa ABCDário LTDA. O programa deverá receber via teclado o Tempo de Casa e o Salário do Empregado e considerar:
 
-	Tempo de Casa 		Salário 				Bônus 		Vale Transporte
-	Até 5 anos 		Até R$300,00 				R$50,00 	5% do Salário
-	Até 5 anos 		Acima de R$300,00 			R$80,00 	6% do Salário
-	De 6 a 10 anos 		Até R$500,00 				15% do Salário 	R$70,00
-	De 6 a 10 anos 		Acima de R$500,00 até R$2000,00 	13% do Salário 	R$90,00
-	De 6 a 10 anos 		Acima de R$2000,00 			12% do Salário 	8% do Salário
-	Acima de 10 anos 	------------ 				R$300,00 	4% do Salário
+	Tempo de Casa 		Salário 				Bônus 			Vale Transporte
+	Até 5 anos 		Até R$300,00 				R$50,00 		5% do Salário
+	Até 5 anos 		Acima de R$300,00 			R$80,00 		6% do Salário
+	De 6 a 10 anos 		Até R$500,00 				15% do Salário 		R$70,00
+	De 6 a 10 anos 		Acima de R$500,00 até R$2000,00 	13% do Salário 		R$90,00
+	De 6 a 10 anos 		Acima de R$2000,00 			12% do Salário 		8% do Salário
+	Acima de 10 anos 	------------ 				R$300,00 		4% do Salário
 
 ==========================================================================================================================
 
