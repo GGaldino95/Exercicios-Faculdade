@@ -1,0 +1,39 @@
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	line-height:1.6em;
+	color:#fff;
+	background-color:#fff;
+	overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color:#333;
+	line-height:1.1em;
+}
+
+p {
+	color:#333;
+	font-size:20px;
+}
+			
+a { 
+	color: blue;    
+}
+
+a.amarelo {
+	color: #FFBB00;
+}
+
+a.marrom {
+	color: #800000;
+}
+
+a.verde {
+	color: green;
+}
+
+a.vermelho {
+	color: red;
+}
