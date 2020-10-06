@@ -1,0 +1,60 @@
+==========================================================================================================================
+Exercício 04
+==========================================================================================================================
+Atividade 1:
+Faça um programa que receba o número de horas trabalhadas (inteiro). Calcule e exiba o salário a receber, seguindo as 
+seguintes regras:
+
+	a) Sabe-se que o salário mínimo é igual a 880,00
+	b) A hora trabalhada corresponde a 30% do salário mínimo
+	c) O salário bruto equivale ao número de horas trabalhadas multiplicado pelo valor da hora trabalhada.
+	d) O imposto equivale a 3% do salário bruto
+
+O salário a receber equivale ao salário bruto menos imposto.
+
+
+Atividade 2:
+Faça um algoritmo que leia o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que 
+este vendedor ganha 15% de comissão sobre suas vendas efetuadas caso o valor da venda seja menor ou igual que o valor do 
+salário fixo ou 20% de comissão caso o valor das vendas seja maior que o salário fixo, informar o salário fixo e salário 
+no final do mês.
+
+
+Atividade 3:
+O cardápio de uma lanchonete é o seguinte:
+
+	ESPECIFICAÇÃO		CÓDIGO		PREÇO
+	Cachorro-quente		100		1,20
+	Bauru Simples		101		1,30
+	Bauru com Ovo		102		1,50
+	Hambúrguer		103		1,20
+	Cheeseburguer		104		1,30
+	Refrigerante		105		1,00
+
+Escreva um algoritmo que leia o código do item pedido, a quantidade e calcule o valor a ser pago por aquele lanche. 
+Considere que a cada execução somente será calculado um item.
+
+
+Atividade 4:
+Faça um algoritmo para calcular o preço final de uma nota. Leia o código do produto e a quantidade comprada. Calcule e mostre:
+
+	Preço unitário (conforme 1ª tabela abaixo);
+	Preço total da nota;
+	Valor do desconto (o desconto é aplicado sobre o preço total da nota, de acordo com a 2ª tabela);
+	Preço final da nota após o desconto.
+
+	CÓDIGO DO PRODUTO		PREÇO
+	1 a 10				10,00
+	11 a 20				15,00
+	21 a 30				20,00
+	31 a 40				30,00
+
+	PREÇO DA NOTA			% DE DESCONTO
+	até 250,00			5
+	entre 250,00 e 500,00		10
+	acima de 500,00			15
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
