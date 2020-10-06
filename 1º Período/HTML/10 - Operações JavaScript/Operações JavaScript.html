@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Operações</title>
+	<meta charset='utf-8' />
+	</head>
+	<script src="JS.js"></script>
+	<link href="Style.css" rel="stylesheet"/>
+	<body>
+          
+		<form name="formulario" method="post">
+		   		    
+			<h1 align=center>Cálculos</h1>
+		
+			<p>
+				<input type="text" id="fat" name="fat" placeholder="Fatorial" size="10">
+				<input type="button" value="Fatorial" onclick="fatorial(formulario.fat.value)">
+				<label for="fatres">Resultado </label><br>
+				<h3 id="fatres"></h3>
+			</p>
+			<hr>
+			<p>
+				<input type="text" id="fib" name="fib" placeholder="Fibonacci" size="9.5">
+				<input type="button" value="Fibonacci" onclick="fibonacci(formulario.fib.value)">
+				<label for="fibres">Resultado </label><br>
+				<h3 id="fibres"></h3>
+				
+				
+			</p>
+			<hr>
+			<p>
+				<input type="text" id="bin" name="bin" placeholder="Base Binária" size="10">
+				<input type="button" value="Base2" onclick="base2(formulario.bin.value)">
+				<label for="binres">Resultado </label><br>
+				<h3 id="binres"></h3>
+			</p>
+		</form>
+
+	</body>
+</html>

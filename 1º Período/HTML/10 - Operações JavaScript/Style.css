@@ -1,0 +1,10 @@
+form {
+	margin: 0px;
+	font-size : 12px;
+	border-style: solid;
+	padding: 5px;
+	width: 180px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
