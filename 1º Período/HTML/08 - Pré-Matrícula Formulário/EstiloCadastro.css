@@ -1,0 +1,39 @@
+h1, h2 {
+	text-align: center;
+}
+form {
+	font-family: Arial;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	
+}
+
+*.label1 {
+	display: inline-block;
+    width:170px;
+    text-align: right;
+}
+
+*.p1 {
+    float: left;
+}
+
+*.p2 {
+    float: left;
+	position: relative;
+	left: 10%;
+	  }
+
+*.p3 {
+    float:left;
+	position: relative;	
+	left: 20%;
+
+}
+	
+#centerbuttons {
+	width:250px; 
+	margin:0 auto;
+}     

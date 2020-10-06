@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Escola Virtual</title>
+    <meta charset="utf-8" /> 
+	<link href="EstiloCadastro.css" rel="stylesheet"  />
+</head>
+<body>
+	<h1> Escola Virtual </h1>
+	<h2> Formulário de Pré-Matrícula </h2>
+	<hr width=35%>
+		<form method="get" name="pre_matricula">
+			<fieldset>
+				<b>Dados Pessoais:</b>
+				<p>
+					<label  class="label1" for="nome"> Nome do Aluno: </label>
+					<input type="text" id="nomeid" maxlength="55" size="20" placeholder="Seu Nome Aqui" required="required" name="nome">
+				<p>
+					<label  class="label1" for="data"> Nascimento (DD/MM/AAAA): </label>
+					<input type="text" id="dataid" maxlength="2" size="1" placeholder="00" required="required" name="data">
+					/ <input type="text" id="dataid" maxlength="2" size="1" placeholder="00" required="required" name="data">
+					/ <input type="text" id="dataid" maxlength="4" size="2" placeholder="0000" required="required" name="data">
+				<p>
+					<label  class="label1" for="nomemae"> Nome da Mãe: </label>
+					<input type="text" id="nomemaeid" maxlength="55" size="20" placeholder="Nome Da Mãe Aqui" required="required" name="nomemae">
+				<p>
+					<label  class="label1" for="nomepai"> Nome do Pai: </label>
+					<input type="text" id="nomepaiid" maxlength="55" size="20" placeholder="Nome Do Pai Aqui" required="required" name="nomepai">
+				<p>
+					<label  class="label1" for="telefone"> Telefone: </label>
+					DDD ( <input type="tel" id="telefoneid" maxlength="2" size="1" placeholder="00" required="required" name="telefone"> )
+					Tel: <input type="tel" id="telefoneid" maxlength="9" size="8" placeholder="0000-0000" required="required" name="telefone">
+					Ramal: <input type="tel" id="telefoneid" maxlength="2" size="1" placeholder="00" required="required" name="telefone"></label>
+				<p>
+					<label  class="label1" for="email"> Email: </label>
+					<input type="email" id="emailid" maxlength="30" placeholder="seuemail@email.com.br" required="required" name="email">
+			<fieldset>
+				<b>Informações de Matrícula</b>
+				<br>
+				<p class="p1">
+					<label for="serie"> Série: </label>
+				<br>
+					<select name="serie"> 
+						<option value="serie1"> 1ª Série </option>
+						<option value="serie2"> 2ª Série </option>
+						<option value="serie3"> 3ª Série </option>
+						<option value="serie4"> 4ª Série </option>
+					</select>
+				<p class="p2">
+					<label> Turno:  </label>
+				<br>
+					<input type="radio" id="radio1" name="turno" value="escolha1">
+					<label for="radio1"> Manhã </label>
+					<br>
+					<input type="radio" id="radio2" name="turno" value="escolha2">
+					<label for="radio2"> Tarde </label>
+				<p class="p3">
+					<label for="atividades"> Atividades Extracurriculares: </label>
+				<br>
+					<input type="checkbox" name="informatica" value="opcao1"> Informática </br>
+					<input type="checkbox" name="musica" value="opcao2"> Música </br>
+					<input type="checkbox" name="ballet" value="opcao3"> Ballet </br>
+					<input type="checkbox" name="pintura" value="opcao4"> Pintura </br>
+					<input type="checkbox" name="judo" value="opcao5"> Judô </br>
+					<input type="checkbox" name="futebol" value="opcao6"> Futebol </br>
+				<br>
+				<p>
+				<div id="centerbuttons">
+					<button type="submit"> Envia Formulário </button> <button type="reset"> Limpa Campos </button>
+				</div>
+					
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</body>
+</html>
