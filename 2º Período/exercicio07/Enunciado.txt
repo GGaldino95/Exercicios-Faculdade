@@ -1,0 +1,36 @@
+==========================================================================================================================
+Exercício 07
+==========================================================================================================================
+Fazer um programa em Java para incluir dados em um arquivo de Clientes de uma Empresa, de acordo com a estrutura de 
+registro abaixo:
+
+	ativo 			-> char 	- gravar 'S' na inclusão e 'N' na exclusão
+	codCliente 		-> int 		- código do cliente
+	nomeCliente 		-> String 	- nome do cliente
+	vlrCompra 		-> float 	- valor da compra
+	anoPrimeiraCompra 	-> int 		- ano que o cliente fez a primeira compra
+	emDia 			-> boolean 	- se o cliente está em dia com o pagamento
+
+OBSERVAÇÃO!:
+Utilizar o campo CODCLI como campo chave primária.
+
+Consistências:
+	O nome do cliente deve ter no mínimo 10 caracteres.
+	O código do cliente deve ser número inteiro e maior que (zero).
+	O valor da compra deve ser maior que zero.
+	O ano da primeira compra dever ser menor ou igual a 2013.
+
+emDia : por ser um campo do tipo boolean (lógico), no arquivo este campo deve ser preenchido com o valor TRUE ou FALSE. 
+Entretanto, para exibir o valor na tela o programa deverá exibir S ou N, e o usuário deverá digitar também o valor S ou N 
+para este campo. Para isto, o programa deverá utilizaruma variável auxiliar do tipo char e solicitar ao usuário que responda 
+a pergunta: ("Cliente está em dia (S/N)?"). Se a resposta for 'S', atribuir TRUE ao campo emDia, caso contrário, atribuir o
+valor FALSE
+
+Quando o codCliente for digitado, verificar no arquivo se já existe algum outro registro que já possua o codCliente informado
+e com ativo == 'S'(registro não excluído). Caso existir, mostrar uma mensagem de erro ("Cliente já cadastrado !"), e não 
+permitir a inclusão.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/1º
