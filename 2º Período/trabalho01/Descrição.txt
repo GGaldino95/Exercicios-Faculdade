@@ -1,0 +1,99 @@
+==========================================================================================================================
+Avaliação Auto-instrucional
+==========================================================================================================================
+Proposta: 
+Escreva programas em Java no Eclipse para manter um arquivo de dados com informações sobre Motocicletas. O sistema deverá 
+ter métodos que permitam incluir, alterar, excluir e consultar dados do arquivo. Todas estas operações deverão ser 
+programadas por meio de métodos contidos na classe: 	Moto.java.
+Segue a estrutura do registro para o Arquivos de Dados:
+
+	Nome do Campo		Tipo 		Tam	Descrição e consistências	                                                     
+	ativo			char		1	Deverá conter  N  para reg. excluído e S para registro corrente
+	codMoto (chave)		String		6	Formato: XXX999, deve conter 3 letras e 3 números nesta ordem
+	marca	 		String		15	Consistir por meio do método consistirMarca
+	modelo			String		--	Digitação obrigatória, mínimo 5 caracteres
+	origem			String		10	País de origem, valor retornado pelo método consistirMarca
+	estilo			String		7	Aceitar: CUSTOM, TRAIL, SPORT, NAKED ou TOURING
+	cilindros		int		--	Aceitar: 1, 2, 3, 4 ou 6
+	cilindrada		int		--	Mínimo 100 e máximo 1800
+	potencia		int		--	Valor em cavalos (cv), aceitar valores acima de zero
+	peso			float		--	Em quilos, aceitar valores acima de zero
+	preço			float		--	Em reais, aceitar valores acima de R$ 1000,00
+	mesAnoFab		String		7	Mês/ano de fabricação, consistir pela função consistirMesAnoFab
+
+Nome do Arquivo de Dados no disco: 'MOTOS.DAT'
+
+Todos os acessos aos Registros do Arquivo serão feitos pelo campo chave: 'codMoto'.
+O campo codMoto corresponde ao campo chave do registro e deverá ter o seguinte formato:
+
+	XXX999, onde:
+	XXX -> Três letras;
+	999 -> Número sequencial, três dígitos.
+
+Deverá também existir uma classe de nome 'Main.java' onde serão declaradas e inicializadas variáveis globais e o método main.
+Na classe 'Moto.java', dois vetores deverão ser declarados e inicializados como globais, são os vetores vetMarcas e vetOrigens.
+Estes vetores armazenarão as possíveis MARCAS e ORIGENS disponíveis para cadastro no arquivo MOTOS.DAT. Inicializar os vetores
+com as MARCAS e respectivas ORIGENS relacionadas na tabela abaixo:
+
+	MARCAS			ORIGENS
+	YAMAHA			JAPÃO
+	HONDA			JAPÃO
+	SUZUKI			JAPÃO
+	KAWASAKI		JAPÃO
+	DUCATI			ITÁLIA
+	HARLEY-DAVIDSON		EUA
+	BMW			ALEMANHA
+	KTM			AUSTRIA
+	TRIUMPH			INGLATERRA
+	BUELL			EUA
+
+MÉTODOS QUE DEVERÃO SER CRIADOS NA CLASSE 'Moto.java':
+
+	Método 'consistirMarca':
+		Este método deverá ser utilizado para Incluir e Alerar dados, e o objetivo é consistir/validar a MARCA digitada
+de acordo com as instruções a seguir. O método receberá como parâmetro a MARCA digitada. Em seguida o método pesquisará se a 
+MARCA digitada existe no vetor global vetMarcas. Se existir, retornará o nome do país de origem contido no vetor global vetOrigens,
+e se não existir retornará o texto “ERRO”.
+
+	Método 'consistirMesAnoFab':
+		Este método deverá ser utilizado para Incluir e Alerar dados, e o objetivo é consistir/validar o MES/ANO de 
+fabricação digitado. O método receberá como parâmetro o MES/ANO digitado e deverá verificar se o valor é válido ou não. Se o Mês/Ano
+for válido, a função retornará o valor lógico TRUE e caso contrário retornará FALSE. O mês/ano possui o seguinte formato: MM/AAAA, e
+será consistido da seguinte maneira:
+		
+		Tamanho: 7 caracteres;
+		O 3º caractere deverá ser uma barra ( / );
+		O mês deverá estar entre 1 e 12;
+		O ano deverá entre 1980 e 2015.
+
+Deverá existir em 'Moto.java' um método para exibir na tela os dados do arquivo com as seguintes opções:
+
+	1ª Opção: listar todas as motos de uma marca informada
+	2ª Opção: listar todas as motos de um ano de fabricação informado
+	3ª Opção: listar todas as motos de uma faixa de preço informada
+	4ª Opção: listar todas as motos
+
+	CODMOTO		MARCA		MODELO		ORIGEM		ESTILO	CIL	POT	PESO	PRECO	ANO
+	XXX999		XXXXXXX		XXXXXXX		XXXXXXX		XXXXXX	9999	999	999	999999	9999
+	XXX999		XXXXXXX		XXXXXXX		XXXXXXX		XXXXXX	9999	999	999	999999	9999
+	XXX999		XXXXXXX		XXXXXXX		XXXXXXX		XXXXXX	9999	999	999	999999	9999
+	XXX999		XXXXXXX		XXXXXXX		XXXXXXX		XXXXXX	9999	999	999	999999	9999
+
+CIL => Cilindrada
+POT => Potência
+
+OBSERVAÇÃO!:
+Na Inclusão não será aceito mais de um registro com o mesmo codMoto, exceto se os que já existem no arquivo estiverem
+excluídos (ATIVO == ‘N’). Se ocorrer uma tentativa de inclusão de moto com um codMoto já existente no arquivo, o programa
+deverá mostrar uma mensagem do tipo “MOTO JÁ CADASTRADA!”
+Na Inclusão e Alteração:
+	Após a digitação da MARCA, o campo ORIGEM não deverá ser digitado e o seu valor deverá ser retornado pelo método 
+consistirMarca, e exibido na tela.
+	Para cada campo do registro, executar as consistências indicadas no início deste enunciado.
+
+O campo ativo deverá receber o valor ‘N’ no módulo de Exclusão.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/1º
