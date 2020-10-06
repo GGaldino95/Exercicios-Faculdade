@@ -1,0 +1,22 @@
+==========================================================================================================================
+Exercício 00
+==========================================================================================================================
+Escreva um algoritmo que realize os cálculos:
+
+int a = 5, b = 3, c;
+double d=2.5, f;
+float g;
+
+Operações:
+c = a/b;
+d += d/a;
+f -= a++/d;
+g = d*5.1;
+
+Obs: Corrigir todos os erros para mostrar os cálculos corretos (Utilize TypeCast)
+Explique cada linha das operações através de comentários.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
