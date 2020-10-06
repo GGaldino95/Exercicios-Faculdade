@@ -1,0 +1,35 @@
+==========================================================================================================================
+Exercício 08
+==========================================================================================================================
+Uma empresa vai dar uma gratificação aos funcionários com base no número de horas extras e no número de horas que o 
+funcionário faltou (fornecidos pelo usuário). Insira o código do funcionário, o número de horas extras e o número de 
+horas que faltou. Calcule o fator H de acordo com a equação abaixo, e com base neste fator escreva a gratificação.
+	
+	H = (número de horas extras) - 2/3 * (números de horas-falta)
+
+	H			GRATIFICAÇÃO
+	> 2400            	500,00
+	[1801, 2400]      	400,00
+	[1201, 1800]		300,00
+	[600, 1200]		200,00
+	< 600             	100,00
+
+OBSERVAÇÃO!:
+	Para finalizar digite código funcionário = 0;
+	Só aceitar horas positivas;
+	A empresa comporta no máximo 100 funcionários.
+
+Resultado intermediário: 
+	Código Funcionário;
+	Fator H;
+	Gratificação.
+
+Resultados finais:
+	A média das gratificações calculadas;
+	A quantidade de funcionários com fator H maior que 1500;
+	Funcionário com maior fator H e informar o valor.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
