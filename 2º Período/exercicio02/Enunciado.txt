@@ -1,0 +1,66 @@
+==========================================================================================================================
+Exercício 02
+==========================================================================================================================
+Atividade 1:
+Fazer um programa em Java para receber via teclado o NOME, o SALÁRIO e o NÚMERO DE DEPENDENTES dos 10 empregados de 
+uma empresa. O programa deverá calcular um Novo Salário para cada empregado de acordo com a tabela abaixo:
+
+	Salários abaixo de R$1.000,00 terão aumento de 30%;
+	Salários de R$1.000,00 até R$2.000,00 terão aumento de 20%;
+	Salários acima de R$2.000,00 terão aumento de 10%.
+
+Em seguida, o programa deverá acrescentar ao Novo Salário calculado R$50,00 por DEPENDENTE e imprimir o Novo Salário.
+Ao final o programa deverá imprimir:
+
+	Soma dos Novos Salários;
+	Média dos Novos Salários;
+	Número de empregados que passou a receber salário acima de R$1700,00.
+
+Atividade 2:
+Fazer um programa em Java para receber via teclado a ALTURA em metros e o SEXO
+dos atletas de uma delegação. O programa deverá calcular e imprimir:
+
+	A maior altura encontrada;
+	A menor altura encontrada;
+	O número de atletas do sexo feminino;
+	A média da altura masculina;
+	A média geral das alturas.
+
+OBSERVAÇÃO!:
+Adotar um flag para encerrar a entrada de dados e consistir os valores digitados na entrada de dados de maneira 
+que só poderão ser aceitos:
+
+	SEXO = M ou F;
+	ALTURA maior que zero e menor ou igual a 2,5 metros.
+
+Atividade 3:
+Em uma Fábrica trabalham empregados divididos em 3 classes: A, B e C. Fazer um programa em Java que receba via 
+teclado o CÓDIGO DO OPERÁRIO (inteiro), a CLASSE do operário (caracter 1 posição) e o NÚMERO DE PEÇAS FABRICADAS 
+no mês (inteiro). Em seguida o programa deverá calcular e imprimir o salário dos empregados considerando a 
+tabela a seguir:
+
+	CLASSE 		Peças fabricadas no mês 	Calculo do Salário
+	A 		até 30 				R$500,00 + R$2,00 por peça fabricada
+	A 		de 31 a 40 			R$500,00 + R$2,30 por peça fabricada
+	A 		acima de 40 			R$500,00 + R$2,80 por peça fabricada
+	B 		- 				R$1.200,00
+	C 		Até 50 				R$ 40,00 por peça fabricada
+	C 		acima de 50 			R$ 45,00 por peça fabricada
+
+Ao final, o programa deverá imprimir:
+	Total gasto pela empresa com o pagamento de salários
+	Número total de peças fabricadas
+	Código do Operário que fabricou o menor número de peças
+	Média de quantidade de peças fabricadas por empregados da classe B
+
+OBSERVAÇÃO!:
+Adotar o flag Código de Operário = 0 (zero) para encerrar a entrada de dados e consistir os seguintes valores 
+digitados na entrada de dados:
+
+	NÚMERO DE PEÇAS deverá ser maior que zero;
+	CLASSE deverá ser A, B ou C.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/1º
