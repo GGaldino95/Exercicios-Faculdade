@@ -1,0 +1,61 @@
+==========================================================================================================================
+Exercício 11
+==========================================================================================================================
+Uma agencia de viagens, está precisando agilizar o processo de geração de passagens para os passageiros.
+Com isso ela te contratou para você fazer um sistema que leia, o nome do passageiro, o destino do passageiro, 
+e se a viagem inclui retorno (ida e volta), e a quantidade de passageiros e informar o preço da passagem 
+conforme a tabela a seguir:
+
+	CONDIÇÃO		IDA		IDA E VOLTA
+	Região Norte		500,00		900,00
+	Região Nordeste		350,00		650,00
+	Região Centro-Oeste	350,00		600,00
+	Região Sul		300,00		550,00 
+
+Caso se realizado a compra de mais de uma passagem, será atribuído um desconto de 3.5% no valor final da passagem.
+Para cada cálculo o sistema deverá perguntar se o usuário deseja continuar, caso queira sair deverá clicar “N”.
+Como resultados Intermediários o algoritmo deverá imprimir por exemplo:
+
+	Vendido 2 passagens para João Silva por R$ 1061.50
+
+Como resultados finais o algoritmo deverá imprimir:
+	a) A quantidade de passagens vendidas para a região Sul;
+	b) A média dos valores faturados por todas as passagens;
+	c) A porcentagem de passagens de ida e volta vendida;
+	d) Imprimir o relatório final abaixo:
+
+	============================================
+	Nome do passageiro: JOÃO SILVA
+	Total de passagens: 2
+	Destino Região Sul
+	Passagem de Ida e Volta
+	Valor total: R$ 1061,50
+	============================================
+	Nome do passageiro: MARIA SILVA
+	Total de passagens: 1
+	Destino Região Norte
+	Passagem de Ida
+	Valor total: R$ 500,00
+
+Consistências na entrada de dados:
+	Consistir a digitação do número de passagens não ser menor e igual que 0;
+	Consistir a digitação da Região não ser diferente dos que estão na tabela;
+	Consistir a digitação do tipo de passagem não ser diferente dos que estão na tabela.
+
+OBSERVAÇÃO!:
+	Adotar o flag “N” para sair;
+	É vendido no máximo 100 passagens por dia.
+
+Sugestão: 
+	Enumere cada opção de região e o tipo de passagem:
+  
+	Região
+	1 – Região Norte
+	2 – Região Nordeste
+	3 – Região Centro-Oeste
+	4 – Região Sul
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2018/2º
