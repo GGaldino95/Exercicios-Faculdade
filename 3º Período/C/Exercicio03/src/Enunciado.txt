@@ -1,0 +1,21 @@
+==========================================================================================================================
+Exercício 03
+==========================================================================================================================
+Faça um programa que solicite ao usuário o tamanho do vetor de inteiro que será criado no programa. Este tamanho deverá 
+ser positivo (validar). Crie o vetor dinamicamente, considerando o tamanho indicado pelo usuário. Após a criação do vetor,
+solicite ao usuário o preenchimento de todas as posições, com valores inteiros, positivos ou nulos. Altere as posições 
+considerando os seguintes itens:
+
+	Para as posições pares do vetor: calcule o dobro do valor digitado;
+	Para as posições ímpares do vetor: calcule a metade do valor digitado.
+
+Ao final:
+
+	Exiba o vetor criado, com seus valores calculados e alterados;
+	Exiba a soma dos itens;
+	E não esqueça de liberar o espaço de memória utilizado.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/2º
