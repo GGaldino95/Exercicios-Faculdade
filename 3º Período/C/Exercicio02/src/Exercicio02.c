@@ -38,12 +38,10 @@ int main(void) {
 	printf("\n A concatenação resulta em: %s", string1);
 
 	//Questão 3
-	printf("\n\nQuestão 3:");
-	strcmp(string1, string2) == -1 ?
-	printf("\n%s, \n%s", string1, string2): //verdadeiro //perceba que no final da linha usa-se : ao invés de ;
-	printf("\n%s, \n%s", string2, string1); //falso
+	printf("\n\nQuestão 3:"); //Operador Ternário
+	strcmp(string1, string2) == -1 ? printf("\n%s, \n%s", string1, string2): printf("\n%s, \n%s", string2, string1);
 
-	/* Os comandos acima são a mesma coisa que:
+	/* O comando acima é a mesma coisa que:
 	 *
 	 * if (strcmp(string1, string2) == -1) {
 	 *	printf("\n%s, %s", string1, string2);
