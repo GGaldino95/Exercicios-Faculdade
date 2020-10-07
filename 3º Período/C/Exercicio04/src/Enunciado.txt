@@ -1,0 +1,39 @@
+==========================================================================================================================
+Exercício 04
+==========================================================================================================================
+Escreva uma função que exiba o seguinte menu:
+
+	A – Resultado do tópico 04
+	B – Resultado do tópico 05
+	C – Finalizar
+
+O menu será exibido em loop, até que o usuário digite a letra C, para finalizar.
+
+	2. Escreva uma função que solicite a digitação de um número inteiro, positivo ou nulo. Ao final, retorne o número validado.
+	3. Escreva uma função que solicite a digitação de um número real, positivo. Ao final, retorne o número validado, via 
+parâmetro por referência.
+	4. Escreva uma função que receba o número de dias trabalhos pelo encanador e calcule o valor líquido a receber, sabendo que
+a empresa paga R$130,00 por dia e são descontados 8% para pagamento de impostos e taxas. Para preencher o número de dias, 
+utilize o retorno da função do tópico 02.
+	
+Utilize o seguinte cabeçalho na criação da função:
+	void calcularSalario(int dias, float *salarioFinal);
+
+	5. Escreva uma função que receba, o um valor de salário. Calcule e retorne o novo salário, considerando a tabela a seguir:
+
+	SALÁRIO					% DE AUMENTO
+	Se salário <= R$1.500,00 		15% de aumento
+	R$1500,00 > salário <= R$5.000,00 	10% de aumento
+	salário > R$15.000,00 			Não haverá aumento
+
+	6. Escreva uma função que receba, via parâmetro, um vetor do tipo double e seu tamanho. Retorne a média dos salários novos calculados.
+		6.1. O vetor será criado dinamicamente na função da questão 01 e seu tamanho será definido pelo usuário - utilizando a função
+do tópico 2, mas lembre-se que o vetor não pode ser nulo (se for necessário, pode alterar a função);
+		6.2. Para cada posição do vetor preencha-a com um valor positivo, referente ao salário do funcionário - utilize a função do
+tópico 3 (utilize aritmética de ponteiros);
+		6.3. Após o preenchimento anterior, calcule um novo salário (utilize a função do tópico 05).
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/2º
