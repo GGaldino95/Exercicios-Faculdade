@@ -1,0 +1,142 @@
+==========================================================================================================================
+Avaliação Auto-instrucional
+==========================================================================================================================
+Proposta: 
+A empresa FinCom deseja fazer um controle de clientes que possuem cartões de crédito em sua financeira. Você é o
+desenvolvedor responsável por esse projeto. Será necessário efetuar um cadastro de clientes, permitindo inclusão de
+dependentes para cada um. Segue abaixo a descrição deste código:
+
+O desenvolvimento será realizado com biblioteca, portanto, será necessário: criar um arquivo '.c' para desenvolver o
+código das funções; um arquivo '.c' para a chamada da função principal; e um arquivo '.h', que será o cabeçalho, para
+“ligar” as funções ao programa principal. A solução deverá ser feita com:
+
+	Lista simplesmente encadeada para o cadastro de clientes, com inserção pelo fim da lista;
+	Lista duplamente encadeada para o cadastro de dependentes, com inserção pelo início da lista.
+
+Crie duas estruturas para o cadastro de clientes que contenham as seguintes características:
+
+	ESTRUTURA 1 (ARMAZENAR DADOS DO CLIENTE):
+	DESCRIÇÃO			OBSERVAÇÃO
+	Nome				Máximo 50 caracteres. O cabeçalho da função de cadastro será:
+					void cadastrarNome(char *nome);
+
+	Código				Gerado a partir da primeira letra do primeiro nome (maiúscula);
+					+ primeira letra do último nome (minúscula);
+					+ número randômico de 0 até 1000;
+					+ número sequencial.
+					Criar uma uma macro para esta execução.
+
+	Data de nascimento		Efetue uma validação de data para inclusão, sendo a idade permitida de 18 até 100 anos.
+					Cabeçalho da Função:
+					char* cadastrarNascimento();
+
+	Limite				Forma de cálculo:
+					De 18 até 40 anos – R$10.000,00
+					De 41 até 60 anos – R$15.000,00
+					De 61 até 75 anos – R$5.000,00
+					Acima de 75 anos – R$2.500,00
+					Cabeçalho da Função:
+					void cadastrarLimite(float *limite);
+
+	Tipo do cartão			Permitindo apenas:
+					U – Universitário – Não aumenta o limite;
+					N – Nacional – Aumenta em 5% o valor total do limite;
+					I – Internacional – Aumenta em 20% o valor total do limite.
+					Cabeçalho da Função:
+					char cadastrarTipo();
+					Solicitar e validar dentro da função e retornar a letra correspondente.
+					Efetuar a alteração do limite considerando o tipo do cartão liberado.
+
+	Qtde de dependentes		Será permitido cadastrar de zero até, no máximo, 2 dependentes. Crie uma 
+					constante para determinar o número máximo de dependentes como 2.
+					Cabeçalho da Função:
+					void cadastrarQtdeDependente(<tipo estrutura> *cliente);
+					Solicitar, validar e retornar a quantidade, sabendo que é permitido quantidade de 0 até 2.
+					A função deverá exibir uma mensagem de solicitação de quantidade de dependentes conforme o exemplo:
+					“Digite a quantidade de dependentes do cliente Fulano” sendo Fulano o nome digitado no campo nome.
+
+	Dados dos Dependentes		Utilizar estrutura própria - Este campo será um apontamento para a lista de dependentes de cada cliente.
+
+	
+	ESTRUTURA 2 (ARMAZENAR DADOS DO DEPENDENTE):
+	DESCRIÇÃO			OBSERVAÇÃO
+	Nome				Máximo 50 caracteres
+					Utilizar a mesma função de cadastro do nome do cliente.
+
+	Código				Código do cliente + número sequencial.
+					Criar uma uma macro para esta execução.
+	
+	Data de Nascimento		Validar para que a idade seja de 0 até 100.
+					Utilizar a mesma função de cadastro de data de nascimento do cliente, porém, para o dependente a idade pode ser de 0 até 100.
+
+	Tipo de dependente		Permitindo apenas:
+					C – Cônjuge
+					F – Filho
+					E - Enteado
+					Cabeçalho da Função:
+					void cadastrarTipoDependente(char *tipoDependente);
+					Solicitar e validar dentro da função e retornar, via parâmetro por referência, a letra correspondente.
+
+Crie uma função com um menu e exiba as seguintes opções:
+
+	A – Inserir
+	B – Excluir
+	C – Relatórios
+	D – Finalizar
+
+	Submenus:
+	Se a escolha principal for A (inserir), abrir o submenu:
+		1 – Efetuar inclusão de cliente;
+		2 – Efetuar inclusão de dependente.
+
+	Se a escolha principal for B (excluir), abrir o submenu:
+		1 – Efetuar exclusão de cliente;
+		2 – Efetuar exclusão de dependente.
+
+	Se a escolha principal for C (relatórios), abrir o submenu:
+		1 – Listar todos os dados dos clientes cadastrados e exibir a média dos limites;
+		2 – Listar todos os dados de um cliente por código;
+		3 – Listar clientes por tipo de cartão.
+
+Para o item A:
+Crie uma função que efetue o cadastro de clientes com as validações citadas anteriormente. Se durante o cadastro for informado
+algum dependente, este deverá ser cadastrado. ATENÇÃO!: Cada campo deverá ter uma função separada para cadastro.
+
+Crie uma função que efetue o cadastro de dependentes, para um cliente já cadastrado. Lembre-se que é necessário alterar a 
+quantidade anteriormente informada (durante o cadastro).
+
+Para o item B:
+Permitir a exclusão de um cliente e efetuar os re-apontamentos. Se um cliente for excluído, seus dependentes também serão.
+Liberar os espaços de memória necessários.
+
+Permitir a exclusão de um dependente, efetuar os re-apontamentos e a alteração no campo quantidade.
+
+Para o item C:
+Crie os relatórios considerando o submenu exibido. Faça todos os códigos utilizando recursividade. Exemplo de inclusão:
+
+	=DADOS CLIENTE=
+	Nome 			– Marina Soares
+	Código 			– Ms198001 ('M' - Primeira letra do primeiro nome, 's' - Primeira letra do último nome,
+					    1980 - ano de nascimento, 01 -> SequencialM pois é a primeira inserção)
+	Data de nascimento 	– 17/12/1980
+	Tipo 			– N (Nacional)
+	Limite 			– R$15.918,78
+	Qtde de dependentes 	– 2
+
+	=DADOS DOS DEPENDENTES=
+	DEPENDENTE 01
+	Nome 			– Roger Batista Junior
+	Código 			– Ms19800101 (Ms198001 - Código da Marina Soares, '01' -> Sequencial, pois é o primeiro dependente dela)
+	Data de Nascimento 	– 15/02/1985
+	Tipo 			– Cônjuge
+
+	DEPENDENTE 02
+	Nome 			– Vinicius Silva Batista
+	Código 			– Ms19800102 (Ms198001 - Código da Marina Soares, '02' -> Sequencial, pois é o segundo dependente dela)
+	Data de Nascimento 	– 05/12/2011
+	Tipo 			– Filho
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/2º
