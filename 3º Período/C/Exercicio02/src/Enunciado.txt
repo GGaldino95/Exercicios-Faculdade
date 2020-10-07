@@ -1,0 +1,37 @@
+==========================================================================================================================
+Exercício 02
+==========================================================================================================================
+Escreva um programa que execute cada item abaixo:
+	1. Solicite a digitação de duas strings ao usuário.
+
+	2. Acrescente a segunda string na primeira, formando uma única, e separando-as por espaço.
+
+Exemplo:
+	String 1 – Estrutura
+	String 2 – de Dados I
+	String 1 – Estrutura de Dados I (após executar a atividade)
+
+	3. Exiba as strings em ordem alfabética, na tela.
+
+	4. Substitua a segunda string com o valor da primeira.
+
+Exemplo:
+	String 1 – Estrutura de Dados I
+	String 2 – de Dados I
+	String 2 – Estrutura de Dados I (após executar a atividade)
+
+	5. Solicite que o usuário digite um caracter, se ele exister na string 1, substitua-o por asterisco (*).
+
+Exemplo:
+	Caracter – a
+	String 1 – Estrutura de Dados I
+	String 1 – Estrutur* de D*dos I (após executar a atividade)
+
+	6. Exiba o tamanho da String 1.
+
+	7. Exiba o tamanho da String 2, porém, sem utilizar nenhuma função da biblioteca string.h
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/2º
