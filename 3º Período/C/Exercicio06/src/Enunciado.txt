@@ -1,0 +1,33 @@
+==========================================================================================================================
+Exercício 06
+==========================================================================================================================
+Atividade 1:
+Faça uma função recursiva que efetue a multiplicação de dois números naturais, através de somas sucessivas 
+(Exemplo: 7 * 5 = 7 + 7 + 7 + 7 + 7 = 35).
+
+Atividade 2:
+Crie uma função recursiva para calcular o resultado da seguinte série:
+
+ 1      8      27     64  
+___ + ____ + _____ + _____ + ...
+
+ 1     10     100    1000
+
+O usuário irá definir quantos termos da série ele deseja calcular. Lembre-se que este número deverá ser inteiro e positivo.
+
+Atividade 3:
+Faça uma função recursiva que permita preencher, recursivamente, um vetor com 'n' posições do tipo float.
+
+Atividade 4:
+Escreva uma função recursiva que efetue a impressão de um número natural em base binária.
+
+Exemplo: 
+	O número 12 na base binária corresponde a 1100, portanto, você deverá exibir este número como resposta.
+
+Atividade 5:
+Para todas as funções anteriores, implemente uma versão de recursividade com cauda, se possível.
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/2º
