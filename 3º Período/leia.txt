@@ -11,10 +11,16 @@ Exercícios do 3º Período envolvendo:
 	- Linguagem e Técnicas de Programação 3 (LTP3) - Orientação a Objetos
 	Manipulação de Datas (Calendar)				-> Java
 	Declaração e Instanciação de Objetos			-> Java
+	Construtores, palavra 'this', Sobrecarga		-> Java
+	Comportamento de Memória				-> Java
+	Enumeração, Tratamento de Exceções			-> Java
 	Encapsulamento, Herança, Polimorfismo e Abstração	-> Java
 	Padrão MVC (Model, View, Controller)			-> Java
-	Listas (ArrayList)					-> Java
+	Membros Estáticos					-> Java
+	Listas (List, ArrayList)				-> Java
 
+--OBS!: Meus exercícios de POO foram perdidos por um dano físico no meu HD, então os exercícios que se encontram aqui são 
+os propostos no curso: Java COMPLETO 2020 Programação Orientada a Objetos, na Udemy.
 
 Alguns trechos de códigos podem estar incompletos, não-otimizados ou com possíveis erros/bugs
 por conta de terem sido feitos enquanto eu ainda estava aprendendo o conteúdo.
