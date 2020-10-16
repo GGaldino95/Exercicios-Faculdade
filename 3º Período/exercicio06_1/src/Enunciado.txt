@@ -1,0 +1,20 @@
+==========================================================================================================================
+Exercício 06_1
+==========================================================================================================================
+Fazer um programa para ler um número inteiro N e uma matriz de ordem N contendo números inteiros. Em seguida, mostrar a 
+diagonal principal e a quantidade de valores negativos da matriz.
+
+Exemplo:
+	Input: 					Output:
+	3					Main diagonal:
+	 5 -3 10				 5  8 -4
+	15  8  2				Negative numbers = 2
+	 7  9 -4
+	
+	
+	
+
+==========================================================================================================================
+
+Gabriel Galdino
+CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE FUMEC, 2019/2º
