@@ -53,6 +53,7 @@ Exemplo 3:
 	
 	Error in reservation: Check-out date must be after check-in date
 
+(Exercício contem 3 soluções diferentes)
 ==========================================================================================================================
 
 Gabriel Galdino
