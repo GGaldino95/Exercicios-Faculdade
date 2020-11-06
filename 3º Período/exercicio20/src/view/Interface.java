@@ -11,7 +11,7 @@ public class Interface {
 		File arquivo = new File("DIRECTORY_PATH\\in.txt");
 		Scanner sc = null;
 
-		// Instanciar o Scanner a partir do arquivo
+		// Instanciar o Scanner a partir do arquivo:
 		try { // Deve-se usar o bloco 'try' pois ao tentar abrir o arquivo, pode ser gerada uma exceção do tipo IOException
 			sc = new Scanner(arquivo);
 			while (sc.hasNextLine()) { // hasNextLine(): Testa se ainda existe uma nova linha no arquivo
